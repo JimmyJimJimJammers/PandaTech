@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F2176D08-E093-43A3-9F6B-A74ADFA43007</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SDD_Bill_It</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4F4AE5A8F4F3838D4068A948E62E6B40A848128A</key>
+		<string>https://github.com/JimmyJimJimJammers/PandaTech.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SDD_Bill_It/SDD_Bill_It.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4F4AE5A8F4F3838D4068A948E62E6B40A848128A</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/JimmyJimJimJammers/PandaTech.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4F4AE5A8F4F3838D4068A948E62E6B40A848128A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4F4AE5A8F4F3838D4068A948E62E6B40A848128A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PandaTech</string>
+		</dict>
+	</array>
+</dict>
+</plist>
