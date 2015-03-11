@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		128FC8291A9A764A0022086A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128FC8281A9A764A0022086A /* AppDelegate.swift */; };
 		128FC82B1A9A764A0022086A /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128FC82A1A9A764A0022086A /* RootViewController.swift */; };
-		128FC82D1A9A764A0022086A /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128FC82C1A9A764A0022086A /* DataViewController.swift */; };
-		128FC82F1A9A764A0022086A /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128FC82E1A9A764A0022086A /* ModelController.swift */; };
 		128FC8321A9A764A0022086A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 128FC8301A9A764A0022086A /* Main.storyboard */; };
 		128FC8341A9A764A0022086A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 128FC8331A9A764A0022086A /* Images.xcassets */; };
 		128FC8371A9A764A0022086A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 128FC8351A9A764A0022086A /* LaunchScreen.xib */; };
@@ -36,8 +34,6 @@
 		128FC8271A9A764A0022086A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		128FC8281A9A764A0022086A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		128FC82A1A9A764A0022086A /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
-		128FC82C1A9A764A0022086A /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
-		128FC82E1A9A764A0022086A /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
 		128FC8311A9A764A0022086A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		128FC8331A9A764A0022086A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		128FC8361A9A764A0022086A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -99,8 +95,6 @@
 				30C78F2B1AB0CC4A00E06AA1 /* TesseractOCR.framework */,
 				128FC8281A9A764A0022086A /* AppDelegate.swift */,
 				128FC82A1A9A764A0022086A /* RootViewController.swift */,
-				128FC82C1A9A764A0022086A /* DataViewController.swift */,
-				128FC82E1A9A764A0022086A /* ModelController.swift */,
 				128FC8301A9A764A0022086A /* Main.storyboard */,
 				128FC8331A9A764A0022086A /* Images.xcassets */,
 				128FC8351A9A764A0022086A /* LaunchScreen.xib */,
@@ -237,8 +231,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				128FC82B1A9A764A0022086A /* RootViewController.swift in Sources */,
-				128FC82F1A9A764A0022086A /* ModelController.swift in Sources */,
-				128FC82D1A9A764A0022086A /* DataViewController.swift in Sources */,
 				128FC8291A9A764A0022086A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
