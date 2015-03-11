@@ -44,7 +44,7 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate {
         // Dispose of any resources that can be recreated.
     }
 
-    var modelController: ModelController {
+    /*var modelController: ModelController {
         // Return the model controller object, creating it if necessary.
         // In more complex implementations, the model controller may be passed to the view controller.
         if _modelController == nil {
@@ -53,7 +53,7 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate {
         return _modelController!
     }
 
-    var _modelController: ModelController? = nil
+    var _modelController: ModelController? = nil*/
 
     // MARK: - UIPageViewController delegate methods
 

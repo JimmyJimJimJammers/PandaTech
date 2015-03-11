@@ -4,53 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
     </dependencies>
     <scenes>
-        <!--Data View Controller-->
-        <scene sceneID="3qM-eY-iJ1">
-            <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="PHE-GN-Yf3" sceneMemberID="firstResponder"/>
-                <viewController storyboardIdentifier="DataViewController" id="hzS-jB-y9W" customClass="DataViewController" customModule="SDD_Bill_It" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="6LC-1I-4vP"/>
-                        <viewControllerLayoutGuide type="bottom" id="a4F-Wq-f2I"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="gLe-Tb-ylt">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wFW-NB-ba9">
-                                <rect key="frame" x="8" y="45" width="359" height="614"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                            </view>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="i7n-lc-4In">
-                                <rect key="frame" x="8" y="20" width="359" height="17"/>
-                                <fontDescription key="fontDescription" type="system" size="system"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" red="0.97826086960000003" green="0.91848131079999995" blue="0.73914263440000005" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstItem="wFW-NB-ba9" firstAttribute="top" secondItem="i7n-lc-4In" secondAttribute="bottom" constant="8" symbolic="YES" id="U81-Od-SYy"/>
-                            <constraint firstAttribute="trailing" secondItem="i7n-lc-4In" secondAttribute="trailing" constant="8" id="WdW-Rj-aSg"/>
-                            <constraint firstItem="i7n-lc-4In" firstAttribute="top" secondItem="gLe-Tb-ylt" secondAttribute="top" constant="20" symbolic="YES" id="Z9a-TM-cFj"/>
-                            <constraint firstItem="i7n-lc-4In" firstAttribute="leading" secondItem="wFW-NB-ba9" secondAttribute="leading" id="fxn-Tu-GH1"/>
-                            <constraint firstAttribute="bottom" secondItem="wFW-NB-ba9" secondAttribute="bottom" constant="8" id="jm5-t9-aTI"/>
-                            <constraint firstItem="i7n-lc-4In" firstAttribute="leading" secondItem="gLe-Tb-ylt" secondAttribute="leading" constant="8" id="reE-mV-FOp"/>
-                            <constraint firstItem="i7n-lc-4In" firstAttribute="trailing" secondItem="wFW-NB-ba9" secondAttribute="trailing" id="zIS-yv-SWb"/>
-                        </constraints>
-                    </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-                    <connections>
-                        <outlet property="dataLabel" destination="i7n-lc-4In" id="8Kj-KN-eO6"/>
-                    </connections>
-                </viewController>
-            </objects>
-            <point key="canvasLocation" x="-921.5" y="1193.5"/>
-        </scene>
         <!--ItemsWindow-->
         <scene sceneID="rIx-2y-bTt">
             <objects>
-                <viewController title="ItemsWindow" id="q7G-M7-Var" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ItemsWindow" title="ItemsWindow" id="q7G-M7-Var" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="rmH-7P-fJZ"/>
                         <viewControllerLayoutGuide type="bottom" id="zEQ-kY-DNY"/>
@@ -130,7 +87,7 @@
         <!--FriendsWindow-->
         <scene sceneID="IDY-XS-SpG">
             <objects>
-                <viewController title="FriendsWindow" id="a16-KF-Ygy" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FriendsWindow" title="FriendsWindow" id="a16-KF-Ygy" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ggW-b1-bhT"/>
                         <viewControllerLayoutGuide type="bottom" id="EFE-Eb-efA"/>
@@ -200,7 +157,7 @@
         <!--PersonSelectWindow-->
         <scene sceneID="6V6-2e-vWR">
             <objects>
-                <viewController title="PersonSelectWindow" id="FgM-fa-SOj" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PersonSelectWindow" title="PersonSelectWindow" id="FgM-fa-SOj" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="mCt-Kq-GyP"/>
                         <viewControllerLayoutGuide type="bottom" id="Jl2-dT-ieM"/>
@@ -257,10 +214,10 @@
             </objects>
             <point key="canvasLocation" x="919.5" y="1188.5"/>
         </scene>
-        <!--Item Assignment-->
+        <!--ItemAssignmentWindow-->
         <scene sceneID="Gyb-sR-0Im">
             <objects>
-                <viewController title="Item Assignment" id="l1d-di-qSC" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ItemAssignmentWindow" title="ItemAssignmentWindow" id="l1d-di-qSC" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Py9-6m-WJV"/>
                         <viewControllerLayoutGuide type="bottom" id="oMg-A7-hKc"/>
@@ -331,10 +288,10 @@
             </objects>
             <point key="canvasLocation" x="1410.5" y="842.5"/>
         </scene>
-        <!--Summery-->
+        <!--SummaryWindow-->
         <scene sceneID="56w-y0-po5">
             <objects>
-                <viewController title="Summery" id="lSi-gJ-j0Z" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SummaryWindow" title="SummaryWindow" id="lSi-gJ-j0Z" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="wqv-j9-uUl"/>
                         <viewControllerLayoutGuide type="bottom" id="YjK-Wp-JZA"/>
@@ -432,8 +389,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="npf-OQ-j7z"/>
         <segue reference="3zV-up-ghY"/>
+        <segue reference="Wb4-XC-bu0"/>
         <segue reference="RVp-US-asg"/>
     </inferredMetricsTieBreakers>
 </document>
