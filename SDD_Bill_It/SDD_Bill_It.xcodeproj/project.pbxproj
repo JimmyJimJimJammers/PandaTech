@@ -15,6 +15,10 @@
 		128FC8341A9A764A0022086A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 128FC8331A9A764A0022086A /* Images.xcassets */; };
 		128FC8371A9A764A0022086A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 128FC8351A9A764A0022086A /* LaunchScreen.xib */; };
 		128FC8431A9A764A0022086A /* SDD_Bill_ItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128FC8421A9A764A0022086A /* SDD_Bill_ItTests.swift */; };
+		30C78F2C1AB0CC4A00E06AA1 /* TesseractOCR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C78F2B1AB0CC4A00E06AA1 /* TesseractOCR.framework */; };
+		30C78F2E1AB0CC6C00E06AA1 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 30C78F2D1AB0CC6C00E06AA1 /* tessdata */; };
+		30C78F301AB0CD0B00E06AA1 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C78F2F1AB0CD0B00E06AA1 /* libstdc++.dylib */; };
+		30C78F321AB0CD1800E06AA1 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C78F311AB0CD1800E06AA1 /* CoreImage.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,11 @@
 		128FC83C1A9A764A0022086A /* SDD_Bill_ItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDD_Bill_ItTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		128FC8411A9A764A0022086A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		128FC8421A9A764A0022086A /* SDD_Bill_ItTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDD_Bill_ItTests.swift; sourceTree = "<group>"; };
+		30C78F2B1AB0CC4A00E06AA1 /* TesseractOCR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TesseractOCR.framework; sourceTree = "<group>"; };
+		30C78F2D1AB0CC6C00E06AA1 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		30C78F2F1AB0CD0B00E06AA1 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		30C78F311AB0CD1800E06AA1 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		30C78F331AB0CDDE00E06AA1 /* SDD_Bill_It-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SDD_Bill_It-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +56,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30C78F321AB0CD1800E06AA1 /* CoreImage.framework in Frameworks */,
+				30C78F301AB0CD0B00E06AA1 /* libstdc++.dylib in Frameworks */,
+				30C78F2C1AB0CC4A00E06AA1 /* TesseractOCR.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,9 +75,12 @@
 		128FC81A1A9A764A0022086A = {
 			isa = PBXGroup;
 			children = (
+				30C78F311AB0CD1800E06AA1 /* CoreImage.framework */,
+				30C78F2F1AB0CD0B00E06AA1 /* libstdc++.dylib */,
 				128FC8251A9A764A0022086A /* SDD_Bill_It */,
 				128FC83F1A9A764A0022086A /* SDD_Bill_ItTests */,
 				128FC8241A9A764A0022086A /* Products */,
+				30C78F331AB0CDDE00E06AA1 /* SDD_Bill_It-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +96,7 @@
 		128FC8251A9A764A0022086A /* SDD_Bill_It */ = {
 			isa = PBXGroup;
 			children = (
+				30C78F2B1AB0CC4A00E06AA1 /* TesseractOCR.framework */,
 				128FC8281A9A764A0022086A /* AppDelegate.swift */,
 				128FC82A1A9A764A0022086A /* RootViewController.swift */,
 				128FC82C1A9A764A0022086A /* DataViewController.swift */,
@@ -96,6 +112,7 @@
 		128FC8261A9A764A0022086A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				30C78F2D1AB0CC6C00E06AA1 /* tessdata */,
 				128FC8271A9A764A0022086A /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -199,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				128FC8321A9A764A0022086A /* Main.storyboard in Resources */,
+				30C78F2E1AB0CC6C00E06AA1 /* tessdata in Resources */,
 				128FC8371A9A764A0022086A /* LaunchScreen.xib in Resources */,
 				128FC8341A9A764A0022086A /* Images.xcassets in Resources */,
 			);
@@ -344,9 +362,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SDD_Bill_It",
+				);
 				INFOPLIST_FILE = SDD_Bill_It/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-lstdc++";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SDD_Bill_It-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -354,9 +381,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SDD_Bill_It",
+				);
 				INFOPLIST_FILE = SDD_Bill_It/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-lstdc++";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SDD_Bill_It-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -413,6 +448,7 @@
 				128FC8481A9A764A0022086A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		128FC8491A9A764A0022086A /* Build configuration list for PBXNativeTarget "SDD_Bill_ItTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +457,7 @@
 				128FC84B1A9A764A0022086A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
