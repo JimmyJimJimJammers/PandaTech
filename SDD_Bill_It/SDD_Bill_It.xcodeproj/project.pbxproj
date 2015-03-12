@@ -13,6 +13,8 @@
 		128FC8341A9A764A0022086A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 128FC8331A9A764A0022086A /* Images.xcassets */; };
 		128FC8371A9A764A0022086A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 128FC8351A9A764A0022086A /* LaunchScreen.xib */; };
 		128FC8431A9A764A0022086A /* SDD_Bill_ItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128FC8421A9A764A0022086A /* SDD_Bill_ItTests.swift */; };
+		307A40D81AB1F74D0052D9C8 /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 307A40D51AB1F73F0052D9C8 /* GPUImage.framework */; };
+		307A40DB1AB1F75D0052D9C8 /* GPUImage.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 307A40D51AB1F73F0052D9C8 /* GPUImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		30C78F2C1AB0CC4A00E06AA1 /* TesseractOCR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C78F2B1AB0CC4A00E06AA1 /* TesseractOCR.framework */; };
 		30C78F2E1AB0CC6C00E06AA1 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 30C78F2D1AB0CC6C00E06AA1 /* tessdata */; };
 		30C78F301AB0CD0B00E06AA1 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C78F2F1AB0CD0B00E06AA1 /* libstdc++.dylib */; };
@@ -27,7 +29,41 @@
 			remoteGlobalIDString = 128FC8221A9A764A0022086A;
 			remoteInfo = SDD_Bill_It;
 		};
+		307A40D21AB1F73F0052D9C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 307A40CC1AB1F73F0052D9C8 /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCF1A33414DDB1EC00852800;
+			remoteInfo = GPUImage;
+		};
+		307A40D41AB1F73F0052D9C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 307A40CC1AB1F73F0052D9C8 /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCE209E51943F20C002FEED8;
+			remoteInfo = GPUImageFramework;
+		};
+		307A40D61AB1F7490052D9C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 307A40CC1AB1F73F0052D9C8 /* GPUImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BCE209E41943F20C002FEED8;
+			remoteInfo = GPUImageFramework;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		307A40DA1AB1F7560052D9C8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				307A40DB1AB1F75D0052D9C8 /* GPUImage.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		128FC8231A9A764A0022086A /* SDD_Bill_It.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDD_Bill_It.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +76,7 @@
 		128FC83C1A9A764A0022086A /* SDD_Bill_ItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDD_Bill_ItTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		128FC8411A9A764A0022086A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		128FC8421A9A764A0022086A /* SDD_Bill_ItTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDD_Bill_ItTests.swift; sourceTree = "<group>"; };
+		307A40CC1AB1F73F0052D9C8 /* GPUImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImage.xcodeproj; path = ../GPUImage/framework/GPUImage.xcodeproj; sourceTree = "<group>"; };
 		30C78F2B1AB0CC4A00E06AA1 /* TesseractOCR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TesseractOCR.framework; sourceTree = "<group>"; };
 		30C78F2D1AB0CC6C00E06AA1 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
 		30C78F2F1AB0CD0B00E06AA1 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
@@ -52,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				307A40D81AB1F74D0052D9C8 /* GPUImage.framework in Frameworks */,
 				30C78F321AB0CD1800E06AA1 /* CoreImage.framework in Frameworks */,
 				30C78F301AB0CD0B00E06AA1 /* libstdc++.dylib in Frameworks */,
 				30C78F2C1AB0CC4A00E06AA1 /* TesseractOCR.framework in Frameworks */,
@@ -71,6 +109,7 @@
 		128FC81A1A9A764A0022086A = {
 			isa = PBXGroup;
 			children = (
+				307A40CC1AB1F73F0052D9C8 /* GPUImage.xcodeproj */,
 				30C78F311AB0CD1800E06AA1 /* CoreImage.framework */,
 				30C78F2F1AB0CD0B00E06AA1 /* libstdc++.dylib */,
 				128FC8251A9A764A0022086A /* SDD_Bill_It */,
@@ -129,6 +168,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		307A40CD1AB1F73F0052D9C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				307A40D31AB1F73F0052D9C8 /* libGPUImage.a */,
+				307A40D51AB1F73F0052D9C8 /* GPUImage.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,10 +187,12 @@
 				128FC81F1A9A764A0022086A /* Sources */,
 				128FC8201A9A764A0022086A /* Frameworks */,
 				128FC8211A9A764A0022086A /* Resources */,
+				307A40DA1AB1F7560052D9C8 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				307A40D71AB1F7490052D9C8 /* PBXTargetDependency */,
 			);
 			name = SDD_Bill_It;
 			productName = SDD_Bill_It;
@@ -196,6 +246,12 @@
 			mainGroup = 128FC81A1A9A764A0022086A;
 			productRefGroup = 128FC8241A9A764A0022086A /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 307A40CD1AB1F73F0052D9C8 /* Products */;
+					ProjectRef = 307A40CC1AB1F73F0052D9C8 /* GPUImage.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				128FC8221A9A764A0022086A /* SDD_Bill_It */,
@@ -203,6 +259,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		307A40D31AB1F73F0052D9C8 /* libGPUImage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGPUImage.a;
+			remoteRef = 307A40D21AB1F73F0052D9C8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		307A40D51AB1F73F0052D9C8 /* GPUImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GPUImage.framework;
+			remoteRef = 307A40D41AB1F73F0052D9C8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		128FC8211A9A764A0022086A /* Resources */ = {
@@ -250,6 +323,11 @@
 			isa = PBXTargetDependency;
 			target = 128FC8221A9A764A0022086A /* SDD_Bill_It */;
 			targetProxy = 128FC83D1A9A764A0022086A /* PBXContainerItemProxy */;
+		};
+		307A40D71AB1F7490052D9C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GPUImageFramework;
+			targetProxy = 307A40D61AB1F7490052D9C8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

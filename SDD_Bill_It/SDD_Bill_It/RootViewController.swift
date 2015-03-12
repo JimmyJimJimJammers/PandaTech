@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import GPUImage
 
 class RootViewController: UIViewController, UIPageViewControllerDelegate {
 
